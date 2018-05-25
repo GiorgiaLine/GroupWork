@@ -1,0 +1,21 @@
+import java.io.*;
+
+
+public class Test
+{
+    //static PrintWriter screen = new PrintWriter (System.out, true);
+
+    MCS test1 = new MCS("Iron",26,55.85,7.87, 1.0, 206.0);
+    MCS test2 = new MCS("Iron",26,55.85,7.87, 1.0, 1000);
+    MCS test3 = new MCS("Iron",26,55.85,7.87, 1.0, 3000);
+
+    /*public void main( String[] args )
+    {
+
+        double T=test1.getTheta();
+
+        screen.println("Theta "+T);
+    }
+    */
+
+}
